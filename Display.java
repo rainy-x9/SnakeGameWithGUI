@@ -11,3 +11,12 @@ public class Display extends JFrame {
 }
 //still working on this
 //Own display group
+
+import javax.swing.JFrame;
+
+/**
+ * Creates the main game window
+ * Made JFrame
+ * and displays the GameBoard panel.
+ */
+
