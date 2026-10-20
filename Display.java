@@ -18,3 +18,4 @@ public class Display extends JFrame {
     }
 }
 //still working on this
+//Own display group
