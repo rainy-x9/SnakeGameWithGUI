@@ -22,7 +22,13 @@ public class GameBoard extends JPanel implements ActionListener {
 
         timer.start();
     }
+/**
+ * Draws all game objects on the screen.
+ *
+ * @param g Graphics object used for drawing
+ */
 
+public GameBoard() {
     @Override
     protected void paintComponent(Graphics g) {
 
@@ -32,6 +38,13 @@ public class GameBoard extends JPanel implements ActionListener {
 
         drawFood(g);
     }
+
+    /**
+ * Draws the food on the game board.
+ *
+ * @param g Graphics object used for drawing
+ */
+private void drawFood(Graphics g) {
 
     private void drawSnake(Graphics g) {
 
