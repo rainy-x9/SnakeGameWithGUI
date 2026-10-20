@@ -17,3 +17,4 @@ public class Display extends JFrame {
         setVisible(true);
     }
 }
+//still working on this
