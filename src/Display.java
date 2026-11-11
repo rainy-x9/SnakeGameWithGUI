@@ -1,22 +1,23 @@
+
 import javax.swing.JFrame;
 
 public class Display extends JFrame {
 
     public Display() {
 
-     System.out.println("Snake Game");
+        setTitle("Sudoku");
 
-    
+        setSize(600, 820);
+
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        setLocationRelativeTo(null);
+
+        setResizable(false);
+
+        add(new GameBoard());
+
+        setVisible(true);
     }
 }
-//still working on this
-//Own display group
-
-import javax.swing.JFrame;
-
-/**
- * Creates the main game window
- * Made JFrame
- * and displays the GameBoard panel.
- */
 
